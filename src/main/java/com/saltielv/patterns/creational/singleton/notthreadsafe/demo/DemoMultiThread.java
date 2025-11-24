@@ -1,5 +1,6 @@
-package com.saltielv.patterns.creational.singleton.notthreadsafe;
+package com.saltielv.patterns.creational.singleton.notthreadsafe.demo;
 
+import com.saltielv.patterns.creational.singleton.notthreadsafe.Singleton;
 import lombok.extern.slf4j.Slf4j;
 
 /**

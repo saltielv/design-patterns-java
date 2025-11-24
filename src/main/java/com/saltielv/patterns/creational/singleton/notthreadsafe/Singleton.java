@@ -1,5 +1,9 @@
 package com.saltielv.patterns.creational.singleton.notthreadsafe;
 
+/**
+ * Non-thread-safe Singleton implementation. In a multi-threaded environment, this can lead to
+ * multiple instances being created.
+ */
 public final class Singleton {
   private static Singleton instance;
 
